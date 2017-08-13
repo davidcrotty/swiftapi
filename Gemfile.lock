@@ -53,6 +53,7 @@ PLATFORMS
 
 DEPENDENCIES
   grape (~> 0.16.2)
+  rack (~> 2.0, >= 2.0.3)
 
 BUNDLED WITH
    1.15.3

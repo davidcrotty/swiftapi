@@ -1,5 +1,5 @@
 module Swifty
-    class API < Grape::API
+    class BaseAPI < Grape::API
         version 'v1', :using => :header, :vendor => 'swifty', format => :json
         resource :system do
             desc "Returns pong."

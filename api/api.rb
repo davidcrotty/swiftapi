@@ -1,3 +1,5 @@
+require 'grape'
+
 module Swifty
     class BaseAPI < Grape::API
         version 'v1', :using => :header, :vendor => 'swifty', format => :json

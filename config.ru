@@ -4,4 +4,4 @@ require_relative 'api/api'
 #   :root => File.expand_path('../public', __FILE__),
 #   :urls => %w[\/], :try => ['.html', 'index.html', '/index.html']
 
-run Swifty::BaseAPI
+run Swifty::BaseAPI.new
